@@ -1,0 +1,25 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "main": "src/Services/server.js",
+  "scripts": {
+    "dev": "nodemon src/Services/server.js",
+    "start": "node src/Services/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Task management API for WA-4 full-stack deployment",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
